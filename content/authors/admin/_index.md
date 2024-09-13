@@ -1,12 +1,12 @@
 ---
 # Display name
-title: KiHyeon Kim
+title: 김기현
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: '컴퓨터공학부 학부생'
 
 # Status emoji
 status:
@@ -18,7 +18,8 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 전북대학교 컴퓨터공학부
+bio: 
+  - name: 전북대학교 컴퓨터공학부
 
 #interests:
 #- Artificial Intelligence
