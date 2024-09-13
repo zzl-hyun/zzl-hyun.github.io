@@ -6,7 +6,7 @@ title: 김기현
 superuser: true
 
 # Role/position
-role: '컴퓨터공학부 학부생'
+role: '전북대학교 컴퓨터공학부'
 
 # Status emoji
 status:
@@ -24,7 +24,7 @@ bio: 학부생
 #interests:
 #- Artificial Intelligence
 #- Computational Linguistics
-#- Information Retrieval
+#- Information Retrieval![alt text](image.png)
 
 #education:
 #  courses:
