@@ -18,8 +18,8 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
-  - name: 전북대학교 컴퓨터공학부
+bio: 학부생
+  
 
 #interests:
 #- Artificial Intelligence
