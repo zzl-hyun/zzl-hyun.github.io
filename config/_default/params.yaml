@@ -103,3 +103,6 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+slider:
+  theme: white

@@ -57,10 +57,14 @@ social:
   - icon: discord
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
-  - icon: bj
-    icon_pack: custom
-    name: bj
-    link: "/"
+  - skills:
+    - name: Technical
+      items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
@@ -73,7 +77,10 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "kgh9985@jbnu.ac.kr"
+# email: "kgh9985@jbnu.ac.kr"
+
+
+
 ---
 
 Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
