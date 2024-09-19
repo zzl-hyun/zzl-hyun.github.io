@@ -19,7 +19,12 @@ status:
 
 # Short bio (displayed in user profile at end of posts)
 bio: 학부생
-  
+role: 학부생
+
+# Organizations/Affiliations
+organizations:
+  - name: 전북대학교 컴퓨터공학부
+    url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
 #interests:
 #- Artificial Intelligence
@@ -45,13 +50,17 @@ bio: 학부생
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
+    link: "mailto:test@example.org" # For a direct email link, use "mailto:test@example.org".
+  - icon: github
     icon_pack: fab
-    link: https://twitter.com/wowchemy
-  - icon: instagram
+    link: https://github.com/zzl-hyun
+  - icon: discord
     icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: https://www.discord.com/users/339720764188000257
+  - icon: bj
+    icon_pack: custom
+    name: bj
+    link: "/"
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
@@ -64,7 +73,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+email: "kgh9985@jbnu.ac.kr"
 ---
 
 Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

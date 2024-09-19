@@ -6,10 +6,21 @@
 main:
   - name: Home
     url: /
-    weight: 10
+    weight: 100
+
   - name: Resumé
     url: about/
-    weight: 20
-  - name: Test
+    weight: 200
+
+  - name: Test1
     url: /
-    weight: 10
+    weight: 300
+  - parent: Test1
+    name: test1-1
+    url: /
+    weight: 310
+  - parent: Test1
+    name: test1-2
+    url: /
+    weight: 310
+
