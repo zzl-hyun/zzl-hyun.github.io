@@ -7,11 +7,9 @@ main:
   - name: Home
     url: /
     weight: 100
-
   - name: Resumé
     url: about/
     weight: 200
-
   - name: Test1
     url: /
     weight: 300
@@ -23,4 +21,26 @@ main:
     name: test1-2
     url: /
     weight: 310
+  - name: Test2
+    url: /
+    weight: 400
+  - parent: Test2
+    name: test2-1
+    url: /
+    weight: 410
+  - parent: Test2
+    name: test2-2
+    url: /
+    weight: 410
+  - name: Test3
+    url: /
+    weight: 500
+  - parent: Test3
+    name: test3-1
+    url: /
+    weight: 510
+  - parent: Test3
+    name: test3-2
+    url: /
+    weight: 510
 
