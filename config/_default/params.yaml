@@ -9,7 +9,7 @@ appearance:
   theme_night: minimal
   theme_day: minimal
   font: native
-  font_size: L
+  font_size: XL
 
 # SEO
 
@@ -35,7 +35,7 @@ header:
   navbar:
     enable: true
     align: c
-    show_logo: false
+    show_logo: true
     show_language: true
     show_day_night: true
     show_search: true
@@ -76,24 +76,31 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    provider: 'giscus'
     giscus:
       repo: ''
       repo_id: ''
       category: ''
       category_id: ''
+      theme: preferred_color_scheme
+      language_code: en
+      mapping: pathname
+    disqus:
+      # Paste the shortname from your Disqus dashboard.
+      shortname: ''
+      # Show comment count in page header? (true/false)
+      show_count: true
+    commento:
+      # If you self-host Commento, enter your custom Commento URL here.
+      url: ''
+    
   search:
     provider: wowchemy
     wowchemy:
       min_length: 1  # Only the matches whose length exceeds this value will be returned.
       threshold: 0.3  # Where 0 requires a perfect match and 1 matches anything.
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 

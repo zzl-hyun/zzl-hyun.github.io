@@ -30,18 +30,27 @@ body {
 }
 
 .dark .card-simple {
-  background: rgb(31, 39, 51);
+  background: #1f2733;
 }
 
 // no navbar shadow
 .navbar {
   box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  background: rgb(225, 232, 243);
 }
-
+.dark .navbar{
+  background: rgb(210, 50, 50);
+}
 // custom section padding
 .home-section {
   padding: 1rem 0;
+  background: rgb(255, 248, 248);
 }
+.dark .home-section {
+  padding: 1rem 0;
+  background: rgb(31, 39, 51);
+}
+
 
 .home-section.wg-about-avatar {
   padding: 0;

@@ -57,14 +57,7 @@ social:
   - icon: discord
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
-  - skills:
-    - name: Technical
-      items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
+
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
