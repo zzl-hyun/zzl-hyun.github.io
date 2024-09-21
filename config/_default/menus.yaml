@@ -7,20 +7,23 @@ main:
   - name: Home
     url: /
     weight: 100
-  - name: Resumé
+
+  - name: About
     url: about/
     weight: 200
-  - name: Test1
+
+  - name: Project
     url: /
     weight: 300
-  - parent: Test1
+  - parent: Project
     name: test1-1
     url: /
     weight: 310
-  - parent: Test1
+  - parent: Project
     name: test1-2
     url: /
     weight: 310
+
   - name: Test2
     url: /
     weight: 400
@@ -32,6 +35,7 @@ main:
     name: test2-2
     url: /
     weight: 410
+
   - name: Test3
     url: /
     weight: 500
@@ -44,3 +48,9 @@ main:
     url: /
     weight: 510
 
+  - name: Use
+    url: /
+    weight: 600
+  - name: Contact
+    url: contact
+    weight: 700

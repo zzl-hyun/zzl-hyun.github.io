@@ -6,7 +6,7 @@ title: 김기현
 superuser: true
 
 # Role/position
-role: '전북대학교 컴퓨터공학부'
+role: 학부생
 
 # Status emoji
 status:
@@ -18,8 +18,8 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 학부생
-role: 학부생
+#bio: 학부생
+
 
 # Organizations/Affiliations
 organizations:
