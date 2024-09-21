@@ -67,7 +67,7 @@ features:
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/<username>/<repository>'
     content_dir: content
@@ -97,8 +97,8 @@ features:
   search:
     provider: wowchemy
     wowchemy:
-      min_length: 1  # Only the matches whose length exceeds this value will be returned.
-      threshold: 0.3  # Where 0 requires a perfect match and 1 matches anything.
+      min_length: 1 
+      threshold: 0.3  
   map:
     provider: 'mapnik'
     api_key: ''

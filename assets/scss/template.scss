@@ -3,6 +3,7 @@
 
 body {
   background-color: rgb(247, 250, 252);
+  animation: blink 1s linear;
 }
 
 .article-container {
@@ -123,4 +124,34 @@ ul.network-icon .big-icon {
 
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
+}
+
+.navbar-brand{
+  animation: music 3s linear infinite;
+}
+
+/// custom
+.navbar-brand:hover{
+  background-color: brown;
+}
+
+.avatar.avatar-circle:hover{
+  animation: music 3s linear infinite;
+  width: 140%;
+}
+@keyframes music {
+  0%{
+      transform: rotate(360deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
+}
+@keyframes blink{
+  0% {
+      opacity: 0;
+  }
+  30%{
+      opacity: 1;
+  }
 }

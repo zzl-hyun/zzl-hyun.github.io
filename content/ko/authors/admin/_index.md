@@ -26,16 +26,16 @@ organizations:
   - name: 전북대학교 컴퓨터공학부
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
-#interests:
-#- Artificial Intelligence
+interests:
+- Artificial Intelligence
 #- Computational Linguistics
 #- Information Retrieval![alt text](image.png)
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
+education:
+  courses:
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
 #  - course: MEng in Artificial Intelligence
 #    institution: Massachusetts Institute of Technology
 #    year: 2009
@@ -55,6 +55,12 @@ social:
     icon_pack: fab
     link: https://github.com/zzl-hyun
   - icon: discord
+    icon_pack: fab
+    link: https://www.discord.com/users/339720764188000257
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/zzl_hyun/
+  - icon: linkedin
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
 
