@@ -9,13 +9,13 @@ headless: true
 weight: 10
 
 author: admin
-#design:
-#  background:
-#    color: '#090a0b'
-#    text_color_light: true
-#    video:
-#      path:  # enter filename of a video in /assets/media
-#  css_class: fullscreen
+design:
+  background:
+    color: '#090a0b'
+    text_color_light: true
+    video:
+      path:  /assets/media/20240922-1053-23.4880504.mp4 # enter filename of a video in /assets/media
+  css_class: fullscreen
 ---
 
 안녕하세요 컴퓨터공학부 202246109 김기현 입니다.

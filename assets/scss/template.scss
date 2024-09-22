@@ -18,6 +18,7 @@ body {
 // custom footer color
 .page-footer {
   background-color: rgb(247, 250, 252);
+  //height: 10%;
 }
 
 .dark .page-footer {
@@ -37,19 +38,19 @@ body {
 // no navbar shadow
 .navbar {
   box-shadow: none !important; // 'important' to override dark mode box-shadow too.
-  background: rgb(225, 232, 243);
+  //background: rgb(225, 232, 243);
 }
 .dark .navbar{
-  background: rgb(210, 50, 50);
+  //background: rgb(210, 50, 50);
 }
 // custom section padding
 .home-section {
   padding: 1rem 0;
-  background: rgb(255, 248, 248);
+  //background: rgb(255, 248, 248);
 }
 .dark .home-section {
   padding: 1rem 0;
-  background: rgb(31, 39, 51);
+  //background: rgb(31, 39, 51);
 }
 
 
@@ -136,8 +137,9 @@ ul.network-icon .big-icon {
 }
 
 .avatar.avatar-circle:hover{
-  animation: music 3s linear infinite;
-  width: 140%;
+  //animation: music 3s linear infinite;
+  background-image: url('https://github.com/zzl-hyun/zzl-hyun.github.io/blob/829cf35dd0f30d8cabddb08ffcc3ea4bc613288c/assets/media/icon.png');
+  transition: background-image 0.5s ease-in-out;
 }
 @keyframes music {
   0%{

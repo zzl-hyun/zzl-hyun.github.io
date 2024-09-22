@@ -7,7 +7,7 @@
 
 appearance:
   theme_night: minimal
-  theme_day: minimal
+  theme_day: coffee
   font: native
   font_size: XL
 
@@ -40,8 +40,18 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    logo:
+      # Logo text
+      text: "header"
+      # Logo filename in `assets/media/` folder
+      filename: "c.svg"
+    button:
+      enable: true
+      text: "Get Started"
+      url: "https://hugoblox.com/templates/"
 
 footer:
+  block: minimal
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
@@ -49,6 +59,9 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  # For multilingual sites, show a language chooser in the footer?
+  show_translations: true
+  
 
 # Localization
 

@@ -26,10 +26,10 @@ organizations:
   - name: 전북대학교 컴퓨터공학부
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval![alt text](image.png)
+# interests:
+# - Artificial Intelligence
+# - Computational Linguistics
+# - Information Retrieval![alt text](image.png)
 
 #education:
 #  courses:
