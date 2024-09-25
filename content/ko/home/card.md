@@ -20,6 +20,7 @@ content:
 
 design:
   columns: '2'
-  view: community/custom_card
+  view: community/custom
+  #view: community/custom_card
   flip_alt_rows: false
 ---

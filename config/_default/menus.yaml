@@ -13,11 +13,11 @@ main:
     weight: 200
 
   - name: Project
-    url: project/
+    url: about/
     weight: 300
   - parent: Project
     name: OhMyPosh
-    url: /#OhMyPosh
+    url: /use
     weight: 310
   - parent: Project
     name: test1-2
