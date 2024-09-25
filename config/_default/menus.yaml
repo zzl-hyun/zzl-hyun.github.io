@@ -13,7 +13,7 @@ main:
     weight: 200
 
   - name: Project
-    url: project/
+    url: about/
     weight: 300
   - parent: Project
     name: OhMyPosh
