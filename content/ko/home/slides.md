@@ -9,44 +9,44 @@ design:
   slide_height: '400px'
   is_fullscreen: false
   # Automatically transition through slides?
-  loop: false
+  loop: true
   # Duration of transition between slides (in ms)
-  interval: 2
+  interval: 4000
 
 content:
   slides:
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
+    - title: slide 1
+      content: text
       align: center
       background:
         position: right
         color: '#FFF'
         brightness: 0.7
-        media: coders.jpg
+        media: slide1.jpg
         fit: cover
-        height: '20px'
-    - title: Lunch & Learn ☕️
-      content: 'Share your knowledge with the group and explore exciting new topics together!'
+        height: '30px'
+    - title: slide 2
+      content: text
       align: left
       background:
         position: center
         color: '#555'
         brightness: 0.7
-        media: contact.jpg
+        media: slide2.jpg
         fit: cover
-    - title: World-Class Semiconductor Lab
-      content: 'Just opened last month!'
+    - title: slide 3
+      content: contact me
       align: right
       background:
         position: center
         color: '#333'
         brightness: 0.5
-        media: welcome.jpg
+        media: slide3.jpg
         fit: cover
       link:
         icon: graduation-cap
         icon_pack: fas
-        text: Join Us
+        text: text
         url: ../contact/
 
 ---
