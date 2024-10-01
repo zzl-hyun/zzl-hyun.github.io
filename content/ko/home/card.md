@@ -19,7 +19,7 @@ content:
   filter_default: 0
 
 design:
-  columns: '2'
+  columns: '1'
   view: community/custom
   #view: community/custom_card
   flip_alt_rows: false
