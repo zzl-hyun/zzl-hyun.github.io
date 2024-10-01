@@ -25,6 +25,7 @@ content:
         media: slide1.jpg
         fit: cover
         height: '30px'
+
     - title: slide 2
       content: text
       align: left
@@ -34,6 +35,7 @@ content:
         brightness: 0.7
         media: slide2.jpg
         fit: cover
+        
     - title: slide 3
       content: contact me
       align: right

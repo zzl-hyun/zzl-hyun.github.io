@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: ''
+title: 'Project'
 subtitle: ''
 
 content:
@@ -39,8 +39,8 @@ content:
 
 design:
   columns: '1'
-  view: masonry
-  flip_alt_rows: true
+  view:  masonry #citation #compact #masonry #card #list
+  flip_alt_rows: false
   background: {}
   spacing: {padding: [0, 0, 0, 0]}
 ---
