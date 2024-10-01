@@ -13,11 +13,11 @@ main:
     weight: 200
 
   - name: Project
-    url: project/
+    url: about/
     weight: 300
   - parent: Project
     name: OhMyPosh
-    url: /#OhMyPosh
+    url: /use
     weight: 310
   - parent: Project
     name: test1-2
@@ -27,26 +27,26 @@ main:
   - name: Test2
     url: /
     weight: 400
-  - parent: Test2
-    name: test2-1
-    url: /
-    weight: 410
-  - parent: Test2
-    name: test2-2
-    url: /
-    weight: 410
+  # - parent: Test2
+  #   name: test2-1
+  #   url: /
+  #   weight: 410
+  # - parent: Test2
+  #   name: test2-2
+  #   url: /
+  #   weight: 410
 
-  - name: Test3
-    url: /
-    weight: 500
-  - parent: Test3
-    name: test3-1
-    url: /
-    weight: 510
-  - parent: Test3
-    name: test3-2
-    url: /
-    weight: 510
+  # - name: Test3
+  #   url: /
+  #   weight: 500
+  # - parent: Test3
+  #   name: test3-1
+  #   url: /
+  #   weight: 510
+  # - parent: Test3
+  #   name: test3-2
+  #   url: /
+  #   weight: 510
 
   - name: Use
     url: /use

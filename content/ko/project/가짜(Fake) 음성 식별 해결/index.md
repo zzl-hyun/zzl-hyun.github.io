@@ -1,8 +1,8 @@
 ---
-title: 가짜(Fake) 음성 식별 해결
-summary: Write about your project here...
+title: Fake Audio Detection
+summary: 
 tags:
-  - CV
+  - ML
 date: 2022-01-01
-external_link: http://github.com
+external_link: https://github.com/zzl-hyun/fake-audio-detection
 ---

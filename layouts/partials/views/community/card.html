@@ -1,0 +1,103 @@
+{{ $item := .item }}
+{{ $hasAttachments := partial "functions/has_attachments" $item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target='_blank' rel='noopener'" }}
+{{ end }}
+
+{{/* Check if summary or abstract exists */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if and ($item.Params.abstract) (ne $item.Params.abstract "") }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+
+<div class="custom-card">
+  <div class="card-header">
+    <h3 class="card-title"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h3>
+  </div>
+
+  {{ if $resource }}
+    {{ $image := $resource.Resize "400x" }}
+    {{ if ne $image.MediaType.SubType "gif" }}
+      {{ $image = $image.Process "webp" }}
+    {{ end }}
+    <div class="card-image">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" class="responsive-img" loading="lazy" />
+      </a>
+    </div>
+  {{ end }}
+
+  <div class="card-body">
+    {{ if $summary }}
+      <p class="card-summary">{{ $summary | truncate 120 }}</p>
+    {{ end }}
+
+    {{ if $item.Params.authors }}
+      <div class="card-authors">
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+    {{ end }}
+  </div>
+
+  {{ if $hasAttachments }}
+    <div class="card-footer">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+  {{ end }}
+</div>
+
+<style>
+.custom-card {
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  margin-bottom: 15px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-body {
+  margin-top: 15px;
+}
+
+.card-summary {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-authors {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.card-footer {
+  margin-top: 20px;
+  text-align: right;
+}
+</style>

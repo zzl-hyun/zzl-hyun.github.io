@@ -1,6 +1,5 @@
 ---
 title: OhMyPosh
-
 summary: Oh My Posh customed theme
 tags:
   - theme
