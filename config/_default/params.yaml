@@ -17,9 +17,10 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: '김기현'
-    description: '전북대 김기현'
+    org_name: 'org name'
+    description: '전북대 김기현이요'
     twitter: 'GetResearchDev'
+    image: assets/media/sharing.png
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -42,9 +43,9 @@ header:
     highlight_active_link: false
     logo:
       # Logo text
-      text: "header logo"
+      text: ""
       # Logo filename in `assets/media/` folder
-      filename: "c.svg"
+      filename: "logo.svg"
     button:
       enable: false
       text: ""
