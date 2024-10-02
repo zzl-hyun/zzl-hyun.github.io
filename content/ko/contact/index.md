@@ -50,4 +50,5 @@ sections:
       #     captcha: true
     design:
       columns: '1'
+      view: list
 ---

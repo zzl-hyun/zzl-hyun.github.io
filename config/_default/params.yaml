@@ -42,13 +42,13 @@ header:
     highlight_active_link: false
     logo:
       # Logo text
-      text: "header"
+      text: "header logo"
       # Logo filename in `assets/media/` folder
       filename: "c.svg"
     button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      enable: false
+      text: ""
+      url: ""
 
 footer:
   block: minimal
@@ -126,3 +126,5 @@ extensions:
 
 slider:
   theme: white
+ogimage:
+  url: assets/media/ogimage.png
