@@ -12,7 +12,7 @@ sections:
     content:
       title: Section 1
       subtitle: A subtitle
-      text: hello {{< video src="my_video.mp4" controls="yes" >}}
+      text: hello {{< youtube kcelgrGY1h8 >}}
       # Display content from the `content/post/` folder
       filters:
         folders:
@@ -27,7 +27,21 @@ sections:
             # Text color (true=light, false=dark, or remove for the dynamic theme color).
             text_color_light: true
 
+  - block: collection
+    id: section-2
+    content:
+      title: Section 2
+      subtitle: diagram
+      text: 
+        # ```markmap {height="200px"}
+        #   - Hugo Modules
+        #   - blox-tailwind
+        #   - blox-plugins-netlify
+        #   - blox-plugins-netlify-cms
+        #   - blox-plugins-reveal
+        # ```
+      filters:
+        folders:
+          - post 
     
 ---
-
-hello
