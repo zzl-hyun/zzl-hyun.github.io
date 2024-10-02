@@ -126,3 +126,5 @@ extensions:
 
 slider:
   theme: white
+ogimage:
+  url: assets/media/ogimage.png
