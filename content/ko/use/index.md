@@ -12,7 +12,7 @@ sections:
     content:
       title: Section 1
       subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      text: hello {{< youtube kcelgrGY1h8 >}}
       # Display content from the `content/post/` folder
       filters:
         folders:
@@ -27,5 +27,16 @@ sections:
             # Text color (true=light, false=dark, or remove for the dynamic theme color).
             text_color_light: true
 
+  - block: collection
+    id: section-2
+    content:
+      title: Section 2
+      subtitle: 
+      text:  
+
+
+      filters:
+        folders:
+          - post 
     
 ---
