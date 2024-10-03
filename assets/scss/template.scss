@@ -128,7 +128,7 @@ ul.network-icon .big-icon {
 }
 
 .navbar-brand{
-  animation: music 3s linear infinite;
+  animation: rotate 3s linear infinite;
 }
 
 /// custom
@@ -140,8 +140,9 @@ ul.network-icon .big-icon {
   //animation: music 3s linear infinite;
   background-image: url('https://github.com/zzl-hyun/zzl-hyun.github.io/blob/829cf35dd0f30d8cabddb08ffcc3ea4bc613288c/assets/media/icon.png');
   transition: background-image 0.5s ease-in-out;
+  
 }
-@keyframes music {
+@keyframes rotate {
   0%{
       transform: rotate(360deg);
   }
@@ -161,3 +162,7 @@ ul.network-icon .big-icon {
 .bg-video{
   opacity: 0.5;
 } 
+
+.project{
+  animation: rotate 3s linear infinite;
+}

@@ -27,15 +27,17 @@ organizations:
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
 interests:
-- Artificial Intelligence
+- 인공지능
+- 클라우드
+
 #- Computational Linguistics
 #- Information Retrieval![alt text](image.png)
 
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
+# education:
+#   courses:
+#   - course: PhD in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
 #  - course: MEng in Artificial Intelligence
 #    institution: Massachusetts Institute of Technology
 #    year: 2009
@@ -50,16 +52,20 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:test@example.org" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:test@kgh9985@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
+  
   - icon: github
     icon_pack: fab
     link: https://github.com/zzl-hyun
+ 
   - icon: discord
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
+  
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/zzl_hyun/
+  
   - icon: linkedin
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
@@ -81,14 +87,8 @@ social:
 
 ---
 
-
 안녕하세요 전북대학교 컴퓨터공학부 김기현입니다.
-
-
-<!-- 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. -->
+인공지능과 클라우드에 관심이 있습니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
 

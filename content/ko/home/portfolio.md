@@ -48,5 +48,5 @@ design:
       path: 3.mp4
 
 ---
-<div  style="text-align: center";><a href="project";><h1>
+<div class="project" style="text-align: center";><a href="project";><h1>
 Project</a></div>
