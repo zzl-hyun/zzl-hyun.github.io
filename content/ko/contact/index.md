@@ -51,4 +51,8 @@ sections:
     design:
       columns: '1'
       view: list
+      background:
+        color: '#000000'
+        video:
+          filename: free-video2.mp4
 ---

@@ -41,8 +41,12 @@ design:
   columns: '1'
   view:  masonry #citation #compact #masonry #card #list
   flip_alt_rows: false
-  background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+
+  background:
+    color: '#090a0b'
+    video:
+      path: 3.mp4
+
 ---
 <div  style="text-align: center";><a href="project";><h1>
 Project</a></div>

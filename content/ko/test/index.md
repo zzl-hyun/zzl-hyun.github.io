@@ -114,3 +114,7 @@ Here's some important information...
 [A project]({{< relref "" >}})
 
 [Scroll down to a page section with heading *Hi*](#hi)
+
+{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" cta_alt_text="Alternative action" cta_alt_link="/" cta_alt_new_tab="false" >}}
+
+{{< cta cta_text="Check out my Portfolio" cta_link="/ko/about" cta_new_tab="false" >}}
