@@ -31,15 +31,10 @@ sections:
     id: section-2
     content:
       title: Section 2
-      subtitle: diagram
-      text: 
-        # ```markmap {height="200px"}
-        #   - Hugo Modules
-        #   - blox-tailwind
-        #   - blox-plugins-netlify
-        #   - blox-plugins-netlify-cms
-        #   - blox-plugins-reveal
-        # ```
+      subtitle: 
+      text:  
+
+
       filters:
         folders:
           - post 

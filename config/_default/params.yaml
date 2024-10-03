@@ -47,9 +47,9 @@ header:
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      enable: false
+      text: ""
+      url: ""
 
 footer:
   block: minimal

@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: 'Project'
+title: ''
 subtitle: ''
 
 content:
@@ -44,3 +44,5 @@ design:
   background: {}
   spacing: {padding: [0, 0, 0, 0]}
 ---
+<div  style="text-align: center";><a href="project";><h1>
+Project</a></div>
