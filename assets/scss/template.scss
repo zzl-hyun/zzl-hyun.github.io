@@ -41,7 +41,13 @@ body {
   //background: rgb(225, 232, 243);
 }
 .dark .navbar{
-  //background: rgb(210, 50, 50);
+  background: #43455c;
+}
+.dark #navbar-main .main-menu-item ul li .nav-link{
+  color: white;
+}
+.dark #navbar-main .main-menu-item ul li .nav-link:hover{
+  color: #3bba9c;
 }
 // custom section padding
 .home-section {
