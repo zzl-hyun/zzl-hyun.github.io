@@ -8,34 +8,37 @@ weight: 20
 title: skills
 
 feature:
+  - icon: git 
+    icon_pack: fab
+    name: Git
+  - icon: linux
+    icon_pack: fab
+    name: Linux
+  - icon: aws
+    icon_pack: fab
+    name: AWS
+
   - icon: c
     icon_pack: custom
     name: C
-    description: 100%
-  - icon: python
+
+  - icon: java
     icon_pack: fab
-    name: Python
-    description: 90%
+    name: Java
   - icon: js
     icon_pack: fab
     name: javascript
-    description: 90%
+  - icon: python
+    icon_pack: fab
+    name: Python
   - icon: node
     icon_pack: fab
-    name: Python
-    description: 90%
-  - icon: java
+    name: Node.js
+  - icon: react
     icon_pack: fab
-    name: Python
-    description: 90%
-  - icon: git 
-    icon_pack: fab
-    name: Python
-    description: 90%
-  - icon: github 
-    icon_pack: fab
-    name: Python
-    description: 90%
+    name: React
+    
+
 
     
 ---

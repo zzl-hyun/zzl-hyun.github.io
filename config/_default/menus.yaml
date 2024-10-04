@@ -13,7 +13,7 @@ main:
     weight: 200
 
   - name: Project
-    url: about/
+    url: test/
     weight: 300
   - parent: Project
     name: OhMyPosh
@@ -25,7 +25,7 @@ main:
     weight: 310
 
   - name: Test2
-    url: /
+    url: /test
     weight: 400
   # - parent: Test2
   #   name: test2-1
@@ -36,9 +36,9 @@ main:
   #   url: /
   #   weight: 410
 
-  # - name: Test3
-  #   url: /
-  #   weight: 500
+  - name: Noification
+    url: /notification
+    weight: 500
   # - parent: Test3
   #   name: test3-1
   #   url: /

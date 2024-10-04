@@ -1,4 +1,4 @@
----
+<!-- ---
 widget: portfolio
 headless: true  # This file represents a page section.
 
@@ -9,7 +9,6 @@ subtitle: ''
 content:
   filters:
     folders:
-      - notification
       - project
     kinds:
       - page
@@ -23,4 +22,4 @@ design:
   view: community/custom
   #view: community/custom_card
   flip_alt_rows: false
----
+--- -->
