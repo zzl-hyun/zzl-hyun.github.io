@@ -25,6 +25,7 @@ content:
         media: slide1.jpg
         fit: cover
         height: '30px'
+        caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
 
     - title: slide 2
       content: text
