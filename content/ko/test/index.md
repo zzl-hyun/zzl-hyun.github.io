@@ -119,6 +119,8 @@ Here's some important information...
 
 {{< cta cta_text="Check out my Portfolio" cta_link="/ko/about" cta_new_tab="false" >}}
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

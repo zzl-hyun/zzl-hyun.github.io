@@ -6,15 +6,14 @@ widget: about.avatar
 headless: true
 
 # Order that this section will appear in.
-weight: 10
+weight: 20
 
 author: admin
 design:
  background:
-   color: '#090a0b'
+   color: ''
    text_color_light: true
-   video:
-     path:  3.mp4 # enter filename of a video in /assets/media
+   image: stacked-peaks.svg # enter filename of a video in /assets/media
  #css_class: fullscreen
 
 ---

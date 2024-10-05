@@ -17,16 +17,29 @@ main:
     weight: 300
 
   - name: Project
-    url: test/
+    url: /project
     weight: 400
   - parent: Project
     name: OhMyPosh
-    url: /use
+    url: /project/ohmyposh
     weight: 410
   - parent: Project
-    name: test1-2
-    url: /
+    name: Astar
+    url: /project/Astar
     weight: 420
+
+  - parent: Project
+    name: Online Shop
+    url: /project/OnlieShop
+    weight: 430
+  - parent: Project
+    name: Multiprogramming Batch System
+    url: /project/MultiprogrammingBatchSystem
+    weight: 440
+  - parent: Project
+    name: Fake audio Detection
+    url: /project/FakeAudioDetection
+    weight: 440
 
   - name: Portfolio
     url: /project
@@ -47,4 +60,8 @@ main:
   - name: Contact
     url: /contact
     weight: 700
+
+  - name: test
+    url: /test
+    weight: 800
 

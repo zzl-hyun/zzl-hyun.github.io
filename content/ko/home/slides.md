@@ -1,6 +1,6 @@
 ---
 widget: slider  # Use the Slider widget as this page section
-weight: 20 # Position of this section on the page
+weight: 10 # Position of this section on the page
 active: true  # Publish this section?
 headless: true  # This file represents a page section.
 
@@ -12,7 +12,7 @@ design:
   loop: true
   # Duration of transition between slides (in ms)
   interval: 4000
-
+  
 content:
   slides:
     - title: slide 1
