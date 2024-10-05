@@ -1,7 +1,8 @@
 ---
 # Display name
 title: 김기현
-
+first_name: 기현
+last_name: 김
 # Is this the primary user of the site?
 superuser: true
 
