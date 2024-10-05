@@ -262,7 +262,7 @@ a, h3.article-title a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* 투명도 레이어 */
+  background-color: rgba(0, 0, 0, 0.6); /* 투명도 레이어 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,3 +272,7 @@ a, h3.article-title a:hover {
 .card-image:hover .overlay {
   opacity: 0.5;
 }
+// .card .card-image.hover-overlay::after{
+//   left: 30%;
+//   color: #dd3c3c;
+// }

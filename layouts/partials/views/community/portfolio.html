@@ -18,7 +18,7 @@
     </a></h3>
   </div>
 
-  {{ with $resource }}
+  <!-- {{ with $resource }}
     {{ $image := .Resize "600x450" }}
       <div class="card-image hover-overlay">
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="">
@@ -26,11 +26,23 @@
               height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
           <div class="overlay">
                 <div class="overlay-text" style="color: white;  margin-top: 10%;">{{ $item.Title | markdownify | emojify }}</div>
-        </div>
+          </div>
         </a>
       </div>
-  {{ end }}
-
+  {{ end }} -->
+   
+  {{ with $resource }}
+  {{ $image := .Resize "600x450" }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+      <div class="card">
+        <img class="img-responsive" loading="lazy" src="{{ $image.RelPermalink }}" 
+        height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+        <div class="overlay">
+              <div class="overlay-text" style="color: white;  margin-top: 15%;">{{ $item.Title | markdownify | emojify }}</div>
+        </div>
+      </div>
+    </a>
+{{ end }}
   <div class="card-text">
     <p class="card-textt">
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
