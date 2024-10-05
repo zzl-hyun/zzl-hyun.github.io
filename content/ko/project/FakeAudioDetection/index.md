@@ -1,8 +1,9 @@
 ---
 title: Fake Audio Detection
-summary: 가짜음성감지
+subtitle: 합성음성 탐지
+summary: 합성음성 탐지
 tags:
   - ML
-date: 2022-01-01
+date: 2024-05-01
 external_link: https://github.com/zzl-hyun/fake-audio-detection
 ---

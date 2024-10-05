@@ -12,56 +12,52 @@ main:
     url: about/
     weight: 200
 
-  - name: Resume
-    url: /resume
-    weight: 300
+  # - name: Resume
+  #   url: /resume
+  #   weight: 300
 
   - name: Project
     url: /project
     weight: 400
   - parent: Project
-    name: OhMyPosh
-    url: /project/ohmyposh
-    weight: 410
-  - parent: Project
     name: Astar
     url: /project/Astar
-    weight: 420
-
-  - parent: Project
-    name: Online Shop
-    url: /project/OnlieShop
-    weight: 430
-  - parent: Project
-    name: Multiprogramming Batch System
-    url: /project/MultiprogrammingBatchSystem
-    weight: 440
+    weight: 410
   - parent: Project
     name: Fake audio Detection
     url: /project/FakeAudioDetection
+    weight: 420
+  - parent: Project
+    name: Multiprogramming Batch System
+    url: /project/MultiprogrammingBatchSystem
+    weight: 430
+  - parent: Project
+    name: OhMyPosh
+    url: /project/ohmyposh
     weight: 440
+  - parent: Project
+    name: Online Shop
+    url: /project/OnlieShop
+    weight: 450
+  - parent: Project
+    name: Recommendation System
+    url: /project/RecommendLunch
+    weight: 460
 
   - name: Portfolio
     url: /project
     weight: 500
-  # - parent: Test3
-  #   name: test3-1
-  #   url: /
-  #   weight: 510
-  # - parent: Test3
-  #   name: test3-2
-  #   url: /
-  #   weight: 510
 
-  - name: Use
-    url: /use
-    weight: 600
+
+  # - name: Use
+  #   url: /use
+  #   weight: 600
 
   - name: Contact
     url: /contact
     weight: 700
 
-  - name: test
-    url: /test
-    weight: 800
+  # - name: test
+  #   url: /test
+  #   weight: 800
 

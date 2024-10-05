@@ -31,14 +31,7 @@ experience:
     date_end: ''
     description: |2-
 
-  - title: 컴퓨터공학부
-    company: 전북대학교
-    company_url: ''
-    company_logo: JBNU_Emblem
-    location: 전주
-    date_start: '2024-03-01'
-    date_end: ''
-    description: |2-
+
 
 
 design:

@@ -8,7 +8,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 20
+weight: 30
 
 title: ''
 subtitle: ''
@@ -30,15 +30,25 @@ content:
       tag: '*'
     - name: Machine Learning
       tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: Other
+      tag: ETC
+
 
 design:
   columns: '1'
-  view: masonry
-  flip_alt_rows: true
-  background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  view:  masonry #citation #compact #masonry #card #list
+  flip_alt_rows: false
+  background:
+   
+   text_color_light: true
+   image: stacked-peaks.svg 
+  # background:
+  #   color: '#090a0b'
+  #   # video:
+  #   #   path: 3.mp4
+
 ---
+
+<div class="project"><h1><span><a href="project">Project</a></span></div>
+
+
