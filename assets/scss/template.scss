@@ -255,3 +255,20 @@ a, h3.article-title a:hover {
 .dark .form-control{
   background-color: #c2c2c298;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 투명도 레이어 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card-image:hover .overlay {
+  opacity: 0.5;
+}

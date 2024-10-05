@@ -4,8 +4,8 @@
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
 {{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ $link = $item.Params.external_link }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
@@ -20,22 +20,55 @@
                 {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
 
                 <img class="img-responsive" loading="lazy" src="{{ $image.RelPermalink }}" 
-                    height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+                        height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+                <div class="overlay">
+                        <div class="overlay-text">{{ $item.Title | markdownify | emojify }}</div>
+                </div>
             {{end}}
         </div>
         
         <div class="card-title">
-                <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+            <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
                     {{ $item.Title | markdownify | emojify }}
-                </a></h4>
+            </a></h4>
         </div>
     </a>
     <div class="card-text">
         <p class="card-textt">
-            {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+                {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
         </p>
         <p class="date">
         {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
         </p>
     </div>
 </div>
+
+<style>
+.card-image {
+        position: relative;
+}
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* 투명도 레이어 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+}
+
+.card-image:hover .overlay {
+        opacity: 1;
+}
+
+.overlay-text {
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+}
+</style>

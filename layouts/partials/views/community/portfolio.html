@@ -24,10 +24,12 @@
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="">
           <img class="img-responsive" loading="lazy" src="{{ $image.RelPermalink }}" 
               height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+          <div class="overlay">
+                <div class="overlay-text" style="color: white;  margin-top: 10%;">{{ $item.Title | markdownify | emojify }}</div>
+        </div>
         </a>
       </div>
   {{ end }}
-
 
   <div class="card-text">
     <p class="card-textt">
@@ -38,5 +40,3 @@
     </p>
   </div>
 </div>
-
-
