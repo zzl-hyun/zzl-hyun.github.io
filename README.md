@@ -1,7 +1,26 @@
 # [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
+
+ **Github pages로 개인 페이지 소개 (포폴) 웹사이트 만들기**
+
+```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  section 작업기간
+  hugo 익히기 :a1, 2024-09-19, 6d
+  내용 구성 :2024-09-28  , 8d
+```
+### 참고 사이트 
+- https://bootstrap.hugoblox.com/blocks-v1/
+- https://docs.hugoblox.com/
+- https://icons.hugomods.com/
+
+
+
+
+## What is Hugoblox
+[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
 
 ️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
