@@ -25,17 +25,3 @@ design:
     {{< cta cta_text="Check out my Portfolio" cta_link="/ko/about" cta_new_tab="false" >}}
 </div>
 
-<!-- <span class="typed" data-typed-items=""></span> 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var typedItems = document.querySelector('.typed').getAttribute('data-typed-items').split(',');
-    new Typed('.typed', {
-      strings: typedItems,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000,
-      loop: true
-    });
-  });
-</script> -->
