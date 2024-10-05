@@ -9,7 +9,6 @@ subtitle: ''
 content:
   filters:
     folders:
-      - notification
       - project
     kinds:
       - page
