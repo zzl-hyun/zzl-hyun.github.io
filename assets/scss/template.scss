@@ -230,3 +230,22 @@ a, h3.article-title a:hover {
 #person-address{
   color: #3bba9c;
 } 
+
+@keyframes rgb {
+  0% { color: #ff9999; } 
+  15% { color: #ffd1a9; }
+  30% { color: #ffffb3; }
+  37% { color: #c1e1c1; }
+  45% { color: #a4d6a4; } 
+  53% { color: #a3e4f9; }
+  60% { color: #a9c4f6; }
+  75% { color: #8899cc; }
+  90% { color: #d1a1d9; }
+  99% { color: #f5c1e3; }
+  100% { color: #ff9999; }
+}
+.project a, h1 {
+    text-decoration: none!important; /* Optional: Remove underline */
+    text-align: center;
+    animation: rgb 5s linear infinite;
+}
