@@ -41,7 +41,23 @@ body {
   //background: rgb(225, 232, 243);
 }
 .dark .navbar{
-  //background: rgb(210, 50, 50);
+  background: #2e3047;
+}
+
+#navbar-main .main-menu-item ul li .nav-link:hover{
+  color: #3bba9c;
+}
+.dark #navbar-main .main-menu-item ul li .nav-link{
+  color: white;
+}
+.dark #navbar-main .main-menu-item ul li .nav-link:hover{
+  color: #3bba9c;
+}
+.dark .dropdown-menu{
+  background-color: #0061f2;
+}
+.dark .dropdown-item{
+  background-color: #0055d4;
 }
 // custom section padding
 .home-section {
@@ -67,7 +83,7 @@ ul.network-icon .big-icon {
 }
 
 .dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(245, 85, 85, 0.9);
   font-weight: bold;
 }
 
@@ -128,7 +144,7 @@ ul.network-icon .big-icon {
 }
 
 .navbar-brand{
-  animation: music 3s linear infinite;
+  animation: rotate 3s linear infinite;
 }
 
 /// custom
@@ -137,11 +153,11 @@ ul.network-icon .big-icon {
 }
 
 .avatar.avatar-circle:hover{
-  //animation: music 3s linear infinite;
-  background-image: url('https://github.com/zzl-hyun/zzl-hyun.github.io/blob/829cf35dd0f30d8cabddb08ffcc3ea4bc613288c/assets/media/icon.png');
-  transition: background-image 0.5s ease-in-out;
+  animation: music 3s linear infinite;
+
+  
 }
-@keyframes music {
+@keyframes rotate {
   0%{
       transform: rotate(360deg);
   }
@@ -161,3 +177,8 @@ ul.network-icon .big-icon {
 .bg-video{
   opacity: 0.5;
 } 
+
+.project{
+  animation: rotate 3s linear infinite;
+}
+

@@ -12,7 +12,7 @@ design:
   loop: true
   # Duration of transition between slides (in ms)
   interval: 4000
-
+  
 content:
   slides:
     - title: slide 1
@@ -25,6 +25,7 @@ content:
         media: slide1.jpg
         fit: cover
         height: '30px'
+        caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
 
     - title: slide 2
       content: text

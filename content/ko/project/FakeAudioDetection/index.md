@@ -1,6 +1,6 @@
 ---
 title: Fake Audio Detection
-summary: 
+summary: 가짜음성감지
 tags:
   - ML
 date: 2022-01-01

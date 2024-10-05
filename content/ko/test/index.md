@@ -118,3 +118,34 @@ Here's some important information...
 {{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" cta_alt_text="Alternative action" cta_alt_link="/" cta_alt_new_tab="false" >}}
 
 {{< cta cta_text="Check out my Portfolio" cta_link="/ko/about" cta_new_tab="false" >}}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typed.js Example</title>
+  <!-- Include Typed.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Developer</span>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var typedItems = document.querySelector('.typed').getAttribute('data-typed-items').split(',');
+      new Typed('.typed', {
+        strings: typedItems,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true
+      });
+    });
+  </script>
+
+</body>
+</html>

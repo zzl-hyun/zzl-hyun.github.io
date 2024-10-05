@@ -41,12 +41,15 @@ design:
   columns: '1'
   view:  masonry #citation #compact #masonry #card #list
   flip_alt_rows: false
-
   background:
-    color: '#090a0b'
-    video:
-      path: 3.mp4
+   color: ''
+   text_color_light: true
+   image: stacked-peaks.svg 
+  # background:
+  #   color: '#090a0b'
+  #   # video:
+  #   #   path: 3.mp4
 
 ---
-<div  style="text-align: center";><a href="project";><h1>
+<div class="project" style="text-align: center";><a href="project";><h1>
 Project</a></div>
