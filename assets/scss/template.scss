@@ -4,6 +4,7 @@
 body {
   background-color: rgb(255, 255, 255);
   animation: blink 1s linear;
+  text-align: justify;
 }
 
 .article-container {
@@ -226,3 +227,6 @@ a, h3.article-title a:hover {
 }
 .search-modal {
   background-color: #f7fafc }
+#person-address{
+  color: #3bba9c;
+} 

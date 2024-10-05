@@ -20,26 +20,31 @@ main:
     url: /project
     weight: 400
   - parent: Project
-    name: OhMyPosh
-    url: /project/ohmyposh
-    weight: 410
-  - parent: Project
     name: Astar
     url: /project/Astar
-    weight: 420
-
-  - parent: Project
-    name: Online Shop
-    url: /project/OnlieShop
-    weight: 430
-  - parent: Project
-    name: Multiprogramming Batch System
-    url: /project/MultiprogrammingBatchSystem
-    weight: 440
+    weight: 410
   - parent: Project
     name: Fake audio Detection
     url: /project/FakeAudioDetection
+    weight: 420
+  - parent: Project
+    name: Multiprogramming Batch System
+    url: /project/MultiprogrammingBatchSystem
+    weight: 430
+  - parent: Project
+    name: OhMyPosh
+    url: /project/ohmyposh
     weight: 440
+  - parent: Project
+    name: Online Shop
+    url: /project/OnlieShop
+    weight: 450
+  - parent: Project
+    name: Recommendation System
+    url: /project/RecommendLunch
+    weight: 460
+
+
 
   - name: Portfolio
     url: /project

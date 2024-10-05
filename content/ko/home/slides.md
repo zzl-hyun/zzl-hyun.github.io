@@ -49,9 +49,10 @@ content:
         media: slide3.jpg
         fit: cover
       link:
-        icon: graduation-cap
-        icon_pack: fas
+       # https://icons.hugomods.com/
         text: click
-        url: ../contact/
+        icon: hand-pointer
+        icon_pack: fas
+        url: contact/
  
 ---

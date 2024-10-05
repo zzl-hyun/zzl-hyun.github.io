@@ -31,7 +31,7 @@ content:
     - name: Machine Learning
       tag: ML
     - name: Other
-      tag: CV
+      tag: ETC
 
 
 design:

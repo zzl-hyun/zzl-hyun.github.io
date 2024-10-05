@@ -1,8 +1,9 @@
 ---
 title: Onlie Shop site
-summary: 온라인 쇼핑몰
+subtitle: 온라인 쇼핑몰 구현
+summary: 온라인 쇼핑몰 구현
 tags:
-  - CV
-date: 2022-01-01
+  - ETC
+date: 2024-10-01
 external_link: https://github.com/zzl-hyun/2024_WSD
 ---
