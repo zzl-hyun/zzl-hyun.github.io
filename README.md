@@ -12,10 +12,10 @@ gantt
   hugo 익히기 :a1, 2024-09-19, 6d
   내용 구성 :2024-09-28  , 8d
 ```
-
-<br>
-<br>
-<br>
+### 참고 사이트 
+- https://bootstrap.hugoblox.com/blocks-v1/
+- https://docs.hugoblox.com/
+- https://icons.hugomods.com/
 
 
 ## What is Hugoblox
