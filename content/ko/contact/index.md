@@ -9,10 +9,11 @@ sections:
     content:
       title: Contact
       text: |-
-        <br> <span style="font-size:95%"> contact me </span> <br>
+        
       email: kgh9985@jbnu.ac.kr
       phone: +82-10-1234-5678
       address:
+        width: 10
         street: 전북대학교
         city: 전주시
         region: 전라북도
@@ -20,8 +21,9 @@ sections:
         country: 대한민국
         country_code: KO
       coordinates:
-        latitude: '35.84601324617979'
-        longitude: '127.13444961966684'
+        width: 20
+        latitude: '35.846013246'
+        longitude: '127.1344496'
       # office_hours:
       #   - 'Monday 12:00 to 15:00'
       #   - 'Thursday 12:00 to 15:00'
@@ -39,15 +41,18 @@ sections:
     
       # Automatically link email and phone or display as text?
       autolink: true
-    
-      # # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: true
+
+      form: 
+        width: 30
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: true
+
+      # Email form provider
+
     design:
       columns: '1'
       view: list
@@ -55,4 +60,7 @@ sections:
         color: '#000000'
         video:
           filename: 4.mp4
+
+
+
 ---

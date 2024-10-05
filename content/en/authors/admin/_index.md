@@ -1,48 +1,47 @@
 ---
 # Display name
-title: 김기현
-first_name: 기현
-last_name: 김
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: '전북대학교 컴퓨터공학부'
+title: Kihyeon Kim
+# SEO
+first_name: Kihyeon
+last_name: Kim
 
 # Status emoji
 status:
   icon: ☕️
 
+# Is this the primary user of the site?
+superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 # Organizations/Affiliations
 #organizations:
-#- name: 腾讯
+#- name: Tencent
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 학부생
-role: 학부생
+#bio: Undergraduate
+
+# Role/position
+role: Undergraduate
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대학교 컴퓨터공학부
+  - name: Chonbuk National University, Department of Computer Science and Engineering
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
-# interests:
-# - Artificial Intelligence
-# - Computational Linguistics
-# - Information Retrieval![alt text](image.png)
+interests:
+- Artificial Intelligence
+- Cloud Computing
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+#- Computational Linguistics
+#- Information Retrieval![alt text](image.png)
+
+# education:
+#   courses:
+#   - course: PhD in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -51,17 +50,55 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:test@example.org" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:test@kgh9985@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
+  
   - icon: github
     icon_pack: fab
     link: https://github.com/zzl-hyun
+ 
   - icon: discord
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
-  - icon: bj
-    icon_pack: custom
-    name: bj
-    link: "/"
+  
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/zzl_hyun/
+  
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.discord.com/users/339720764188000257
+
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 80
+#         icon: code-bracket
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: circle-stack
+
+# work:
+#   - title: CEO
+#     company: GenCoin
+#     company_url: ''
+#     company_logo: org-gc
+#     location: California
+#     date_start: '2021-01-01'
+#     date_end: ''
+#     description: |2-
+#         Responsibilities include:
+        
+#         * Analysing
+#         * Modelling
+#         * Deploying
+
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
@@ -74,11 +111,20 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "kgh9985@jbnu.ac.kr"
+# email: "kgh9985@jbnu.ac.kr"
+
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello,
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am Kihyeon Kim, a student of the Department of Computer Science and Engineering at Chonbuk National University, ID 202246109.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+I am interested in Artificial Intelligence and Cloud Computing, and I aim to develop innovative solutions through these fields.
+
+I strive to solve problems, improve efficiency, and contribute to the advancement of technology.
+
+My goal is to continuously learn and grow, expanding my capabilities through various projects and experiences.
+
+Thank you.
+
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}my resume{{< /staticref >}}

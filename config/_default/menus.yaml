@@ -44,19 +44,10 @@ main:
     url: /project/RecommendLunch
     weight: 460
 
-
-
   - name: Portfolio
     url: /project
     weight: 500
-  # - parent: Test3
-  #   name: test3-1
-  #   url: /
-  #   weight: 510
-  # - parent: Test3
-  #   name: test3-2
-  #   url: /
-  #   weight: 510
+
 
   # - name: Use
   #   url: /use
@@ -66,7 +57,7 @@ main:
     url: /contact
     weight: 700
 
-  - name: test
-    url: /test
-    weight: 800
+  # - name: test
+  #   url: /test
+  #   weight: 800
 

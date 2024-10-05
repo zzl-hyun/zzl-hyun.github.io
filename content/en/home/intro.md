@@ -6,19 +6,37 @@ widget: about.avatar
 headless: true
 
 # Order that this section will appear in.
-weight: 10
+weight: 20
 
 author: admin
 design:
-  background:
-    color: '#090a0b'
-    text_color_light: true
-    video:
-      path:  /assets/media/20240922-1053-23.4880504.mp4 # enter filename of a video in /assets/media
-  css_class: fullscreen
+ background:
+  color: ''
+  text_color_light: true
+  image: stacked-peaks.svg # enter filename of a video in /assets/media
+ #css_class: fullscreen
+
 ---
 
-안녕하세요 컴퓨터공학부 202246109 김기현 입니다.
-{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+Hello, I am [Kim Ki-hyeoun](/ko/about), a student of the Department of Computer Science at Chonbuk National University, 202246109.
+{style="font-size: 1.2rem; background: #A8E063; background: linear-gradient(to right, #A8E063 0%, #56AB2F 30%, #3CA55C 60%, #3CA55C 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
-Check out my [resumé](/about/) and portfolio below 😍
+<div style="display: flex; justify-content: center;">
+   {{< cta cta_text="Check out my Portfolio" cta_link="/ko/about" cta_new_tab="false" >}}
+</div>
+
+<!-- <span class="typed" data-typed-items=""></span> 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+   var typedItems = document.querySelector('.typed').getAttribute('data-typed-items').split(',');
+   new Typed('.typed', {
+    strings: typedItems,
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 2000,
+    loop: true
+   });
+  });
+</script> -->
+

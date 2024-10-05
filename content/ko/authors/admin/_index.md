@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 김기현
-
+# SEO
 first_name: 기현
 last_name: 김
 
@@ -132,5 +132,5 @@ social:
 
 감사합니다
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resume
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}my resume{{< /staticref >}} 
 

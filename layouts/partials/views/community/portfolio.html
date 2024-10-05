@@ -21,7 +21,7 @@
   {{ with $resource }}
     {{ $image := .Resize "600x450" }}
       <div class="card-image hover-overlay">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="">
           <img class="img-responsive" loading="lazy" src="{{ $image.RelPermalink }}" 
               height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
         </a>
