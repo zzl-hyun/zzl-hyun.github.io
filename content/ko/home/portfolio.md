@@ -42,7 +42,7 @@ design:
   view:  masonry #citation #compact #masonry #card #list
   flip_alt_rows: false
   background:
-   color: ''
+   
    text_color_light: true
    image: stacked-peaks.svg 
   # background:

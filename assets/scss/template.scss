@@ -31,8 +31,8 @@ body {
   border-radius: 15px;
 }
 
-.dark .card-simple {
-  background: #1f2733;
+.dark .card {
+  background: #5d726ea7;
 }
 
 // no navbar shadow
@@ -68,7 +68,9 @@ body {
   padding: 1rem 0;
   //background: rgb(31, 39, 51);
 }
-
+.home-section.dark a{
+  color: white;
+}
 
 .home-section.wg-about-avatar {
   padding: 0;
