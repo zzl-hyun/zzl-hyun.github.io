@@ -2,7 +2,7 @@
 
 
 
-## hugoblox로 개인 페이지 구축
+ **Github pages로 개인 페이지 소개 (포폴) 웹사이트 만들기**
 
 ```mermaid
 gantt
