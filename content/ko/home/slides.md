@@ -12,11 +12,12 @@ design:
   loop: true
   # Duration of transition between slides (in ms)
   interval: 4000
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   
 content:
   slides:
-    - title: slide 1
-      content: text
+    - title: 
+      content: 
       align: center
       background:
         position: right
@@ -25,10 +26,11 @@ content:
         media: slide1.jpg
         fit: cover
         height: '30px'
-        caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+      caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
 
-    - title: slide 2
-      content: text
+
+    - title: 
+      content: 
       align: left
       background:
         position: center
@@ -37,7 +39,7 @@ content:
         media: slide2.jpg
         fit: cover
         
-    - title: slide 3
+    - title: 
       content: contact me
       align: right
       background:
@@ -49,7 +51,7 @@ content:
       link:
         icon: graduation-cap
         icon_pack: fas
-        text: text
+        text: click
         url: ../contact/
-
+ 
 ---

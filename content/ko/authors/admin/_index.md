@@ -72,36 +72,36 @@ social:
 
 
 
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 80
+#         icon: code-bracket
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: circle-stack
 
-work:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
-    description: |2-
-        Responsibilities include:
+# work:
+#   - title: CEO
+#     company: GenCoin
+#     company_url: ''
+#     company_logo: org-gc
+#     location: California
+#     date_start: '2021-01-01'
+#     date_end: ''
+#     description: |2-
+#         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+#         * Analysing
+#         * Modelling
+#         * Deploying
 
 # Uncomment below for Github link
 #- icon: github
@@ -120,8 +120,17 @@ work:
 
 ---
 
-안녕하세요 전북대학교 컴퓨터공학부 김기현입니다.
-인공지능과 클라우드에 관심이 있습니다.
+안녕하세요
+
+전북대학교 컴퓨터공학부 202246109 김기현입니다.
+
+인공지능과 클라우드 컴퓨팅에 관심을 가지고 있으며, 이를 통해 혁신적인 솔루션을 개발하고 싶습니다.
+
+문제를 해결하고, 효율성을 높이며, 기술의 발전에 기여하는 데 최선을 다하고 있습니다.
+
+항상 배우고 성장하는 것을 목표로 하며, 다양한 프로젝트와 경험을 통해 제 역량을 확장해 나가고 있습니다.
+
+감사합니다
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
 

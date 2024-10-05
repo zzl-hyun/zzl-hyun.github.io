@@ -1,8 +1,8 @@
 ---
 title: Onlie Shop site
-summary: Write about your project here...
+summary: 온라인 쇼핑몰
 tags:
-  - NLP
+  - CV
 date: 2022-01-01
 external_link: https://github.com/zzl-hyun/2024_WSD
 ---

@@ -12,9 +12,9 @@ main:
     url: about/
     weight: 200
 
-  - name: Resume
-    url: /resume
-    weight: 300
+  # - name: Resume
+  #   url: /resume
+  #   weight: 300
 
   - name: Project
     url: /project
@@ -53,9 +53,9 @@ main:
   #   url: /
   #   weight: 510
 
-  - name: Use
-    url: /use
-    weight: 600
+  # - name: Use
+  #   url: /use
+  #   weight: 600
 
   - name: Contact
     url: /contact

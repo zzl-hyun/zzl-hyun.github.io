@@ -30,12 +30,9 @@ content:
       tag: '*'
     - name: Machine Learning
       tag: ML
-    - name: Computer Vision
+    - name: Other
       tag: CV
-    - name: NLP
-      tag: NLP
-    - name: hi
-      tag: NLP
+
 
 design:
   columns: '1'
@@ -51,5 +48,35 @@ design:
   #   #   path: 3.mp4
 
 ---
-<div class="project" style="text-align: center";><a href="project";><h1>
-Project</a></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Text Animation</title>
+    <style>
+        @keyframes rgb {
+            0% { color: red; }
+            15% { color: orange; }
+            30% { color: yellow; }
+            37% { color: yellowgreen; }
+            45% { color: green; }
+            53% { color: cyan; }
+            60% { color: blue; }
+            75% { color: navy; }
+            90% { color: purple; }
+            99% { color: hotpink; }
+            100% { color: red; }
+        }
+        #project {
+            animation: rgb 3s linear infinite;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><span id="project"><a href="project">Project</a></span></h1>
+</body>
+</html>

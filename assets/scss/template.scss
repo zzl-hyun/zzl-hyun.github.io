@@ -2,7 +2,7 @@
 // https://hugoblox.com/hugo-themes/
 
 body {
-  background-color: rgb(247, 250, 252);
+  background-color: rgb(255, 255, 255);
   animation: blink 1s linear;
 }
 
@@ -18,6 +18,7 @@ body {
 // custom footer color
 .page-footer {
   background-color: rgb(247, 250, 252);
+  
   //height: 10%;
 }
 
@@ -53,6 +54,9 @@ body {
 .dark #navbar-main .main-menu-item ul li .nav-link:hover{
   color: #3bba9c;
 }
+.dark .navbar .navbar-nav .nav-link {
+  color: white;
+}
 .dark .dropdown-menu{
   background-color: #0061f2;
 }
@@ -62,7 +66,10 @@ body {
 // custom section padding
 .home-section {
   padding: 1rem 0;
-  //background: rgb(255, 248, 248);
+  background: hsl(0, 0%, 99%);
+}
+.home-section:nth-of-type(even) {
+  background: hsl(0, 0%, 99%);
 }
 .dark .home-section {
   padding: 1rem 0;
@@ -71,6 +78,7 @@ body {
 .home-section.dark a{
   color: white;
 }
+
 
 .home-section.wg-about-avatar {
   padding: 0;
@@ -84,8 +92,29 @@ ul.network-icon .big-icon {
   font-size: 1.5rem;
 }
 
+.btn-primary{
+  background-color: #3bba9c;
+  border: #1f5f50;
+}
+.btn-primary:hover{
+  background-color: #1f5f50;
+}
+.btn-toolbar .btn.btn-primary:hover,.btn-toolbar .btn.btn-primary.active {
+  background-color: #82ebd2 !important;
+}
+.btn-toolbar .btn.btn-primary:active{
+  background-color: #3bba9c!important;
+  box-shadow: #1f5f50!important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #cffff7;
+}
+
+// .btn-primary{
+//   background-color: #1f5f50;
+// }
 .dark .portrait-title h3 {
-  color: rgba(245, 85, 85, 0.9);
+  color: rgba(176, 199, 182, 0.9);
   font-weight: bold;
 }
 
@@ -176,11 +205,22 @@ ul.network-icon .big-icon {
   }
 }
 
-.bg-video{
-  opacity: 0.5;
-} 
-
-.project{
-  animation: rotate 3s linear infinite;
+.fas, .fab{
+  color: #3bba9c;
 }
-
+.fas:hover, .fab:hover{
+  color: #1f5f50;
+  transition: color 0.3s ease;
+}
+.experience .m-2 .border.exp-fill {
+  background-color: #3bba9c !important;
+  border-color: #3bba9c!important;
+}
+.experience .m-2 .border, .experience .col.border-right {
+  border-color: #3bba9c !important;
+}
+a, h3.article-title a:hover {
+  color: #3bba9c;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
