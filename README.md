@@ -3,30 +3,22 @@
 
 [![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
-hugoblox를
+## hugoblox로 개인 페이지 구축
 
-
-```markmap {height="200px"}
-- Hugo Modules
-  - wowchemy
-  - wowchemy-plugins-netlify
-  - wowchemy-plugins-netlify-cms
-  - wowchemy-plugins-reveal
-```
-
-
-
-## Diagrams
 ```mermaid
 gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
+  dateFormat  YYYY-MM-DD
+  section 작업기간
+  hugo 익히기 :a1, 2024-09-19, 6d
+  내용 구성 :2024-09-28  , 8d
 ```
+
+<br>
+<br>
+<br>
+
+
+### What is Hugoblox
 
 The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
 
