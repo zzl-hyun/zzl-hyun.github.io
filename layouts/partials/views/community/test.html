@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typed.js Example</title>
+  <!-- Include Typed.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Developer</span>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var typedItems = document.querySelector('.typed').getAttribute('data-typed-items').split(',');
+      new Typed('.typed', {
+        strings: typedItems,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true
+      });
+    });
+  </script>
+
+</body>
+</html>

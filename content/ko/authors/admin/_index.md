@@ -2,16 +2,18 @@
 # Display name
 title: 김기현
 
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: 학부생
+first_name: 기현
+last_name: 김
 
 # Status emoji
 status:
   icon: ☕️
 
+# Is this the primary user of the site?
+superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 # Organizations/Affiliations
 #organizations:
 #- name: 腾讯
@@ -19,6 +21,9 @@ status:
 
 # Short bio (displayed in user profile at end of posts)
 #bio: 학부생
+
+# Role/position
+role: 학부생
 
 
 # Organizations/Affiliations
@@ -33,17 +38,12 @@ interests:
 #- Computational Linguistics
 #- Information Retrieval![alt text](image.png)
 
-# education:
-#   courses:
-#   - course: PhD in Artificial Intelligence
-#     institution: Stanford University
-#     year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+education:
+  courses:
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -69,6 +69,39 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.discord.com/users/339720764188000257
+
+
+
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
+
+work:
+  - title: CEO
+    company: GenCoin
+    company_url: ''
+    company_logo: org-gc
+    location: California
+    date_start: '2021-01-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
 
 # Uncomment below for Github link
 #- icon: github
