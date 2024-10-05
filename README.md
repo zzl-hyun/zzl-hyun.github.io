@@ -1,7 +1,6 @@
 # [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
 
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
 ## hugoblox로 개인 페이지 구축
 
