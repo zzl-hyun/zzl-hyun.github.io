@@ -28,7 +28,8 @@ marketing:
     microsoft_clarity: ''
   verification:
     google: 'eoG1MHUPBDrzwjXAgRbKTI5WPFVEttnCdIfhU369Z6k'
-    baidu: ''
+    baidu: 'fe849f75df583894e1ce4e387ff549256ffba026'
+    naver: 'fe849f75df583894e1ce4e387ff549256ffba026'
 
 # Site header
 
